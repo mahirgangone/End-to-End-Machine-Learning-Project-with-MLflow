@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/57454d9a56e14a2a83aa2852d18bf00a/artifacts
+end_time: 1767328106551
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57454d9a56e14a2a83aa2852d18bf00a
+run_name: unequaled-shad-247
+run_uuid: 57454d9a56e14a2a83aa2852d18bf00a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767328103145
+status: 3
+tags: []
+user_id: Mahir

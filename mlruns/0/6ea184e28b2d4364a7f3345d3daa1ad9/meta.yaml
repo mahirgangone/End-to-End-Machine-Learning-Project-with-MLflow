@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/6ea184e28b2d4364a7f3345d3daa1ad9/artifacts
+end_time: 1767326699993
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ea184e28b2d4364a7f3345d3daa1ad9
+run_name: tasteful-robin-453
+run_uuid: 6ea184e28b2d4364a7f3345d3daa1ad9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767326696755
+status: 4
+tags: []
+user_id: Mahir

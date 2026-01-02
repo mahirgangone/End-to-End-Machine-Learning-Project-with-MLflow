@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/4367ef53823d4c989e253fb7d94152aa/artifacts
+end_time: 1767327304496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4367ef53823d4c989e253fb7d94152aa
+run_name: casual-moth-877
+run_uuid: 4367ef53823d4c989e253fb7d94152aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767327299964
+status: 3
+tags: []
+user_id: Mahir

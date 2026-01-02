@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/5a099b011b404cbe98e0cf06ff55fb89/artifacts
+end_time: 1767325735728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a099b011b404cbe98e0cf06ff55fb89
+run_name: inquisitive-deer-958
+run_uuid: 5a099b011b404cbe98e0cf06ff55fb89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767325732348
+status: 4
+tags: []
+user_id: Mahir

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/af105063096a41e49388fcc0b941f0d6/artifacts
+end_time: 1767328871739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af105063096a41e49388fcc0b941f0d6
+run_name: capable-goose-190
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767328868563
+status: 3
+tags: []
+user_id: Mahir

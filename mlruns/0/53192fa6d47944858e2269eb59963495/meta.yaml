@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/53192fa6d47944858e2269eb59963495/artifacts
+end_time: 1767324597224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53192fa6d47944858e2269eb59963495
+run_name: learned-grub-30
+run_uuid: 53192fa6d47944858e2269eb59963495
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767324594287
+status: 4
+tags: []
+user_id: Mahir

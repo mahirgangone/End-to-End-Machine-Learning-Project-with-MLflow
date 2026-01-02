@@ -1,0 +1,10 @@
+artifact_location: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/models/m-486e82bedda84fb79dde5f3895dd89ae/artifacts
+creation_timestamp: 1767328838797
+experiment_id: '0'
+last_updated_timestamp: 1767328842533
+model_id: m-486e82bedda84fb79dde5f3895dd89ae
+model_type: null
+name: model
+source_run_id: 43ed5cbe1816455ca7ad03e7364cb8f3
+status: 2
+status_message: null

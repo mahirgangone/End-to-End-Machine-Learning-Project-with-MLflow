@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/43ed5cbe1816455ca7ad03e7364cb8f3/artifacts
+end_time: 1767328842565
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43ed5cbe1816455ca7ad03e7364cb8f3
+run_name: secretive-turtle-764
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767328838737
+status: 3
+tags: []
+user_id: Mahir

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/5a8ed86a6bd247c5941aee32c6d1ac73/artifacts
+end_time: 1767323216185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a8ed86a6bd247c5941aee32c6d1ac73
+run_name: delightful-kite-276
+run_uuid: 5a8ed86a6bd247c5941aee32c6d1ac73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767323212832
+status: 4
+tags: []
+user_id: Mahir
