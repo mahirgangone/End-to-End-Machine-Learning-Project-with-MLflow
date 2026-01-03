@@ -7,7 +7,6 @@ on:
     paths-ignore:
       - 'README.md'
 
-
 permissions:
   id-token: write 
   contents: read
@@ -18,7 +17,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
 
       - name: Lint code
         run: echo "Linting repository"
@@ -32,7 +31,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
 
       - name: Install Utilities 
         run: |
@@ -40,7 +39,7 @@ jobs:
           sudo apt-get install -y jq unzip
       
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1 
+        uses: aws-actions/configure-aws-credentials@v4 # Updated to v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -48,7 +47,7 @@ jobs:
 
       - name: Login to Amazon ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v1
+        uses: aws-actions/amazon-ecr-login@v2 # Updated to v2 (fixes masking warning)
 
       - name: Build, tag, and push image to Amazon ECR
         env:
@@ -64,17 +63,17 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1 
+        uses: aws-actions/configure-aws-credentials@v4 # Updated to v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Login to Amazon ECR
-        uses: aws-actions/amazon-ecr-login@v1
+        uses: aws-actions/amazon-ecr-login@v2 # Updated to v2
 
       - name: Pull latest images
         run: |
@@ -82,6 +81,8 @@ jobs:
 
       - name: Run Docker Image to serve users
         run: |
+          # Added a check to stop/remove container if it already exists to prevent "Name already in use" errors
+          docker stop cnncls || true && docker rm cnncls || true
           docker run -d -p 8080:8080 --name cnncls \
           -e AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
           ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.ECR_REPOSITORY }}:latest
