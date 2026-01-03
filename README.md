@@ -145,15 +145,15 @@ export MLFLOW_TRACKING_PASSWORD=5f42b6e189102acda2af66221dfbdf86f78fe7ee
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=
+    AWS_ACCESS_KEY_ID=6TOZIFRllSPHmF3qw6Ky3fsptXv22IttUORLwT4P
 
-    AWS_SECRET_ACCESS_KEY=
+    AWS_SECRET_ACCESS_KEY=AKIAQYDABUUYU7LQB7EC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  051741041969.dkr.ecr.us-east-2.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = mlproj
 
 
 
