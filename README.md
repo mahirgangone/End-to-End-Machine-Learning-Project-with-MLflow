@@ -145,16 +145,6 @@ export MLFLOW_TRACKING_PASSWORD=5f42b6e189102acda2af66221dfbdf86f78fe7ee
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=YOUR_AWS_ACCESS_KEY_ID
-	
-	AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET_ACCESS_KEY
-	
-	AWS_REGION=us-east-1
-	
-	AWS_ECR_LOGIN_URI=YOUR_ACCOUNT_ID.dkr.ecr.YOUR_REGION.amazonaws.com
-
-
-
 
 ## About MLflow 
 MLflow
