@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/Mahir/End-to-End-Machine-Learning-Project-with-MLflow/mlruns/0/a288ad26c5ff4a2abf74ee246e9da749/artifacts
+end_time: 1767399126699
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a288ad26c5ff4a2abf74ee246e9da749
+run_name: adorable-mink-378
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767399122636
+status: 3
+tags: []
+user_id: Mahir
